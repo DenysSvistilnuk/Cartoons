@@ -1,3 +1,169 @@
+body, h1, h2, ul, p{
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1119px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #E7DFD8;
+}
 .micky-mouse{
-    
+    padding: 99px 0px;
+}
+.micky-mouse-container{
+    display: flex;
+    gap: 107px;
+}
+.micky-mouse-text{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-size: 19px;
+    color: #101010;
+    line-height: 189%;
+    padding-bottom: 28px;
+}
+.micky-mouse-number{
+    font-size: 38px;
+    color: #101010;
+    line-height: 63%;
+    background-color: #b99fea;
+    width: 74px;
+    height: 74px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.micky-mouse-title{
+    padding-bottom: 30px;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: #101010;
+    font-weight: 400;
+}
+.micky-mouse-desc{
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: 158%;
+    color: #101010;
+    font-size: 14px;
+    padding-bottom: 35px;
+}
+.micky-mouse-link{
+    background: #b99fea;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    line-height: 138%;
+    color: #000;
+    display: inline-block;
+}
+.koko{
+    padding: 112px 0px;
+}
+.koko-container{
+    display: flex;
+    gap: 139px;
+}
+.koko-text{
+    display: flex;
+    gap: 21px;
+    align-items: center;
+    font-size: 19px;
+    line-height: 189%;
+    color: #101010;
+    padding-bottom: 28px;
+}
+.koko-number{
+    font-size: 38px;
+    line-height: 63%;
+    color: #101010;
+    background-color: #eba789;
+    border-radius: 100px;
+    width: 74px;
+    height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.koko-title{
+    padding-bottom: 30px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: #101010;
+}
+.koko-desc{
+    font-size: 14px;
+    line-height: 158%;
+    color: #101010;
+    padding-bottom: 35px;
+}
+.koko-link{
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: #eba789;
+    font-size: 16px;
+    line-height: 138%;
+    color: #000;
+    display: inline-block;
+}
+.vayana{
+    padding: 112px 0px;
+}
+.vayana-container{
+    display: flex;
+    gap: 113px;
+}
+.vayana-text{
+    display: flex;
+    gap: 21px;
+    align-items: center;
+    font-size: 19px;
+    line-height: 189%;
+    color: #101010;
+    padding-bottom: 28px;
+}
+.vayana-number{
+    font-size: 38px;
+    line-height: 63%;
+    color: #101010;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    width: 74px;
+    height: 74px;
+    background-color: #96dbc6;
+}
+.vayana-title{
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: #101010;
+    padding-bottom: 30px;
+}
+.vayana-desc{
+    font-size: 15px;
+    line-height: 147%;
+    color: #101010;
+    padding-bottom: 35px;
+}
+.vayana-link{
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: #96dbc6;
+    font-size: 16px;
+    line-height: 138%;
+    color: #000;
+    display: inline-block;
 }
